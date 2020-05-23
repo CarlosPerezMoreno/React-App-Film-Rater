@@ -31,14 +31,13 @@ section {
   padding: 15px;
 }
 
-.search-box {
+.searchbox-wrap {
   display: block;
   width: 100%;
   padding: 15px;
   
   border-radius: 10px 10px 10px 10px;
   outline: none;
-  background-color: #fff;
   color: black;
   font-size: 16px;
   font-weight: 300;
@@ -47,6 +46,6 @@ section {
 
 }
 
-.search-box:focus {
+.searchbox-wrap:focus {
   box-shadow: 0px 0px 8px 3px #019aff;
 }

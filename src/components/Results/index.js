@@ -1,14 +1,15 @@
 import React from 'react'
-import ImgResults from '../ImgResults'
 
-function Results ( { results } ) {
-    return (
-        <section className="results">
-            {results.map(res => (
-                <ImgResults result={res} />
-            ))}
-        </section>
-    )
+import InfoResult from '../InfoResults'
+
+function Results ({ finalresult }) {
+	return (
+		<section className="result">
+			{finalresult.map(res => (
+				<InfoResult inforesult={res} />
+			))}
+		</section>
+	)
 }
 
 export default Results
