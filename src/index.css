@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Sedgwick Ave', cursive;
-  background-color: darkslategrey;
+  background-color: rgb(29, 29, 29);
 }
 
 header {
@@ -48,5 +48,5 @@ section {
 }
 
 .search-box:focus {
-
+  box-shadow: 0px 0px 8px 3px #019aff;
 }
