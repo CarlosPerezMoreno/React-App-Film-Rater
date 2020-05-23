@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sedgwick Ave', cursive;
+  background-color: darkslategrey;
+}
+
+header {
+  padding: 50px 0px 0px;
+}
+
+header h1 {
+  color: #ccc;
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+
+section {
+  padding: 15px;
+}
+
+.search-box {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  
+  border-radius: 10px 10px 10px 10px;
+  outline: none;
+  background-color: #fff;
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+
+  transition: 0.4 ease-out;
+
+}
+
+.search-box:focus {
+
+}
