@@ -1,12 +1,12 @@
 import React from 'react'
 
-import InfoResult from '../InfoResults'
+import Result from '../InfoResults'
 
-function Results ({ finalresult, openPopup  }) {
+function Results ({ results, openPopup }) {
 	return (
-		<section className="final-result">
-			{finalresult.map(res => (
-				<InfoResult key={res.imdbID} inforesult={res} openPopup={openPopup} />
+		<section className="results">
+			{results.map(result => (
+				<Result key={result.imdbID} result={result} openPopup={openPopup} />
 			))}
 		</section>
 	)

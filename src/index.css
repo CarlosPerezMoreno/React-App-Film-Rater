@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Sedgwick Ave', cursive;
+  font-family: 'Mallanna', sans-serif;
   background-color: rgb(29, 29, 29);
 }
 
@@ -14,10 +14,12 @@ header {
 }
 
 header h1 {
+  font-family: 'Sedgwick Ave', cursive;
   color: #ccc;
   font-size: 50px;
   font-weight: 300;
   text-align: center;
+  padding-bottom: 16px;
 }
 
 main {
@@ -50,39 +52,40 @@ section {
   box-shadow: 0px 0px 8px 3px #019aff;
 }
 
-.final-result {
+.results {
+	padding-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0px -15px;
 }
 
-.final-result .info-results {
+.results .result {
 	width: 33.333%;
 	min-width: 250px;
-	padding: 15px;
+	padding: 24px;
 	display: flex;
 	flex-direction: column;
 	cursor: pointer;
 }
 
-.final-result .info-results img {
+.results .result img {
 	display: block;
 	width: 100%;
 }
 
-.final-result .info-results h3 {
-	color: #FFF;
+.results .result h3 {
+	color: #ccc;
 	font-size: 20px;
 	font-weight: 600;
 	padding: 10px;
-	background: #445565;
+	background: #29323b;
 	flex: 1 1 100%;
 	transition: 0.4s ease-out;
 }
 
-.final-result .info-results:hover h3 {
+.results .result:hover h3 {
 	background: #FFF;
-	color: #223343;
+	color: #29323b;
 }
 
 .popup {
@@ -142,7 +145,7 @@ section {
 	font-size: 18px;
 	font-weight: 700;
 
-	background: #4484C4;
+	background: #29323b;
 	color: #FFF;
 	border-radius: 8px;
 	border: none;
@@ -154,5 +157,6 @@ section {
 }
 
 .popup .content .close:hover {
-	background: #223343;
+	background: #ffffff;
+	color: #29323b;
 }

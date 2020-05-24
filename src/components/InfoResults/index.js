@@ -1,12 +1,12 @@
 import React from 'react'
 
-function infoResult({ inforesult, openPopup }) {
+function Result({ result, openPopup }) {
 	return (
-		<div className="info-results">
-			<img src={inforesult.Poster} alt='Film Posters' onClick={() => openPopup(inforesult.imdbID)} />
-			<h3>{inforesult.Title}</h3>
+		<div className="result" onClick={() => openPopup(result.imdbID)}>
+			<img src={result.Poster} />
+			<h3>{result.Title}</h3>
 		</div>
 	)
 }
 
-export default infoResult
+export default Result

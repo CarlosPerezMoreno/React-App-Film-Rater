@@ -10,7 +10,7 @@ function Popup({ selected, closePopup }) {
 					<img src={selected.Poster} />
 					<p>{selected.Plot}</p>
 				</div>
-				<button className="close" onClick={closePopup}>Close</button>
+				<button className="close" onClick={closePopup}>Return</button>
 			</div>
 		</section>
 	)
