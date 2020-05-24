@@ -1,9 +1,9 @@
 import React from 'react'
 
-function infoResult({ inforesult }) {
+function infoResult({ inforesult, openPopup }) {
 	return (
-		<div className="results">
-			<img src={inforesult.Poster} alt='Film Posters' />
+		<div className="info-results">
+			<img src={inforesult.Poster} alt='Film Posters' onClick={() => openPopup(inforesult.imdbID)} />
 			<h3>{inforesult.Title}</h3>
 		</div>
 	)
